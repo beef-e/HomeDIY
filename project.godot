@@ -11,8 +11,14 @@ config_version=5
 [application]
 
 config/name="HomeDIY"
+run/main_scene="uid://dfla3hr806dny"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+EventBus="*uid://dg24gxd30rlp4"
+SaveManager="*uid://b3yqk3326nn16"
 
 [display]
 

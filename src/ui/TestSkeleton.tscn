@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dfla3hr806dny"]
+
+[ext_resource type="Script" uid="uid://mjtf2nv0q6ub" path="res://src/ui/test_skeleton.gd" id="1_54elx"]
+
+[node name="TestSkeleton" type="Node2D" unique_id=212294134]
+script = ExtResource("1_54elx")
+
+[node name="Button" type="Button" parent="." unique_id=70007007]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "TEST CLICK"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
